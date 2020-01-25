@@ -1,0 +1,433 @@
+body
+{
+	overflow: hidden;
+}
+header
+{
+	background: #08526d;
+	color: white;
+	padding:20px;
+}
+.navbar-brand
+{
+	font-size: 40px;
+}
+.navbar-brand span:first-child
+{
+	color:#08526d;
+	font-weight: bold;
+}
+.navbar-brand span:last-child
+{
+	color: #ec1c23;
+}
+.navbar-nav .nav-item
+{
+	 font-weight: 500;
+    font-size: 20px;
+    margin-right: 20px;
+    color:#08526d;
+}
+.navbar-light .navbar-nav .active>.nav-link,
+ .navbar-light .navbar-nav .nav-link.active,
+ .navbar-light .navbar-nav .nav-link.show,
+ .navbar-light .navbar-nav .show>.nav-link
+{
+		color: #ec1c23;
+}
+.slider
+{
+	background: #eee;
+}
+.slider .carousel-inner .overlay
+{
+	width: 100%;
+	height: 100%;
+	background: rgba(8,82,109,.7);
+	position: absolute;
+	z-index: 2;
+	color: white;
+	display:  flex;
+	align-items:   center;
+	justify-content: left;
+}
+.slider .carousel-inner .overlay h2
+{
+	width: 600px;
+	margin-left: 5%;
+}
+.slider .carousel-inner .overlay h2 span
+{
+	background: #ec1c23;
+}
+.slider .carousel1, .carousel2 ,.carousel3
+{
+	background-size: cover;
+	z-index: 1;
+
+}
+.slider .carousel1
+{
+	background: url('../images/carsouel1.jpg');
+}
+.slider .carousel2
+{
+		background: url('../images/carsouel2.jpg');
+}
+.slider .carousel3
+{
+		background: url('../images/carsouel3.jpg');
+}
+.carousel-indicators li
+{
+	height: 8px;
+	opacity: .5;
+
+}
+.features
+{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.features .box
+{
+
+	padding: 0px;
+	margin:10px 0px;
+}
+.features .box i
+{
+    line-height: 100px;
+	background-color: #ec1c23;
+	color: white;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-bottom: 15px;
+}
+.features .box h4
+{
+	color: #08526d;
+	font-size: 27px;
+}
+.features .box p
+{
+	color: #a79f9f;
+}
+.overview
+{
+	height: 400px;
+	background: #eae1e1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.overview .container
+{
+	max-width: 800px;
+}
+.overview h2
+{
+    margin-bottom: 20px;
+}
+.overview p
+{
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 450;
+    margin-bottom: 20px;
+    color: #847777
+}
+.overview h4
+{
+	font-size: 30px;
+	font-weight: normal;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    color:#847777
+}
+.overview .btn-danger
+{
+	background:  #ec1c23;
+}
+.ourfeatured
+{
+	padding-top: 100px;
+}
+.ourfeatured h2
+{
+    margin-bottom: 20px;
+}
+.ourfeatured p
+{
+	line-height: 1.5;
+    font-size: 20px;
+    font-weight: 450;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom:  30px;
+    color: #847777;
+}
+.ourfeatured ul li
+{
+	display: inline-block;
+	padding:4px 20px;
+	border: 1px solid #08526d;
+	margin-left: 1%;
+	margin-bottom: 20px;
+	color:#08526d;
+	transition: all .3s ease-in-out;
+}
+.ourfeatured ul li.active,
+.ourfeatured ul li:hover
+
+{
+	background:#ec1c23;
+	color: white;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.images{
+	margin:40px 0;
+	transition: all .5s ease-in-out;
+
+}
+.images .row
+{
+	margin:0px;
+	transition: all .5s ease-in-out;
+}
+.images .row .col-md
+{
+	padding:0px;
+	max-width: 25%;
+	min-width: 25%;
+}
+.images .row img
+{
+	width: 100%;
+	height:100%;
+
+}
+.ourposts h2
+{
+    margin-bottom: 20px;
+}
+.ourposts  .pr
+{
+	line-height: 1.5;
+    font-size: 20px;
+    font-weight: 450;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom:  50px;
+    color: #847777;
+}
+.ourposts .card
+{
+	margin-bottom: 20px;
+}
+.ourposts .card img
+{
+	background-size: cover;
+	max-height: 250px;
+
+}
+.ourposts .card h5{
+	color: #08526d;
+}
+.ourposts .card .card-link
+{
+	color: #ec1c23;
+	font-weight: bold;
+}
+.ourposts .card .card-body
+{
+	border: 1px solid #08526d;
+	 border-top: none;
+	 border-radius:0px 0px 5px 5px;
+}
+.testmonials
+{
+	background-image: url('../images/carsouel1.jpg');
+	background-size: cover;
+	z-index: 1;
+	height: 500px;
+}
+.testmonials  .overlay
+{
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	background: rgba(8,82,109,.7);
+	z-index: 2;
+	color: white;
+
+}
+
+.testmonials .overlay .carousel-caption
+{
+	position: absolute;
+	top: 50%;
+	margin-top: -150px;
+}
+.testmonials .overlay .carousel-caption img
+{
+	margin-bottom: 10px;
+	width:140px;
+	height: 140px;
+	border-radius: 50%;
+}
+.testmonials .overlay  .carousel-indicators
+{
+	position: static;
+}
+.contacts
+{
+	background: #ec1c23;
+	height: 200px;
+	margin-top: 0px;
+	padding-top: 80px;
+	color: white;
+	font-size: 16px;
+}
+.contacts h2
+{
+		font-size: 20px;
+
+}
+.contacts button
+{
+	background: transparent;
+	color: white;
+	padding-left: 10px;
+}
+.footer
+{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.footer h3 span:first-child
+{
+	color:#08526d;
+	font-weight: bold;
+}
+.footer h3 span:last-child
+{
+	color: #ec1c23;
+}
+.footer .box1 {
+	margin-bottom: 15px;
+}
+.footer .box1 p
+{
+	 color: #a79898;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+.footer .box1 a
+{
+	font-weight: bold;
+	color:#08526d;
+}
+.footer .box1 a:before
+{
+	font-family: 'FontAwesome';
+    content: "\f053";
+    margin-right: 5px
+}
+.footer .box2 {
+	margin-bottom: 15px;
+}
+.footer .box2 h4
+{
+	color: #08526d;
+   margin-bottom: 12px;
+}
+.footer .box2 ul li:before
+{
+	  font-family: 'FontAwesome';
+    content: "\f053";
+    color: #08526d;
+    font-size: 13px;
+    margin-right: 5px;
+}
+.footer .box3 {
+	margin-bottom: 15px;
+}
+.footer .box3 h4
+{
+	color: #08526d;
+   margin-bottom: 12px;
+}
+@media (min-width: 576px) {
+	 .images .row .col-md
+	{
+		padding:0px;
+		max-width: 25%;
+		transition: all .5s ease-in-out;
+	}
+}
+.loading
+{
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background-color:  #ffa64d;
+	z-index: 9999;
+}
+.loading
+{
+	position: fixed;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background-color:  #ffa64d;
+	z-index: 9999;
+}
+.lds-hourglass {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  top: 45%;
+  left:46%;
+}
+.lds-hourglass:after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  margin: 8px;
+  box-sizing: border-box;
+  border: 32px solid red;
+  border-color: red transparent red transparent;
+  animation: lds-hourglass 1.2s infinite;
+}
+@keyframes lds-hourglass {
+  0% {
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+    transform: rotate(1800deg);
+  }
+}
+
+input[type=button]
+{
+	position: fixed;
+	bottom: 10px;
+	right: 2%;
+	border-radius: 7px;
+	display: none;
+}
